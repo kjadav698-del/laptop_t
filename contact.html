@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - TechLaptops</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">TechLaptops</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact">
+    <h2>Contact Us</h2>
+    <form action="send_message.php" method="post">
+      <label>Name</label>
+      <input type="text" name="name" required>
+      <label>Email</label>
+      <input type="email" name="email" required>
+      <label>Message</label>
+      <textarea name="message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p><strong>Address:</strong> 123 Tech Street, Mumbai, India</p>
+      <p><strong>Phone:</strong> +91 9876543210</p>
+      <p><strong>Email:</strong> support@techlaptops.com</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TechLaptops. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

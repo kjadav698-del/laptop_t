@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - TechLaptops</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">TechLaptops</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="cart">
+    <h2>Your Cart</h2>
+    <form action="checkout.php" method="post">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td>ProBook 450</td>
+          <td>₹55,000</td>
+          <td><input type="number" name="quantity" value="1" min="1"></td>
+        </tr>
+      </table>
+      <button type="submit" class="btn">Proceed to Checkout</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 TechLaptops. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
