@@ -41,7 +41,7 @@
                                 <li><a href="shop.aspx">Shop</a></li>
                                 <li><a href="cart.aspx">Cart</a></li>
                                 <li><a href="contact.aspx">Contact</a></li>
-                                <li><a href="index.aspx">Log Out</a></li>
+                                <li><a href="logout.aspx">Log Out</a></li>
                             </ul>
                         </nav>
                     </header>

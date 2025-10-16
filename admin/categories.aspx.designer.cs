@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace laptop_t
+namespace laptop_t.admin
 {
 
 
-    public partial class cart
+    public partial class categories
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace laptop_t
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// Button3 control.
+        /// txtcn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.TextBox txtcn;
 
         /// <summary>
         /// Button1 control.
@@ -40,14 +40,5 @@ namespace laptop_t
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

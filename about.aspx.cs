@@ -11,7 +11,10 @@ namespace laptop_t
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["user"] == null)
+            {
+                Response.Redirect("index.aspx");
+            }
         }
     }
 }

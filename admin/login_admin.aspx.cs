@@ -42,7 +42,7 @@ namespace laptop_t.admin
                 int i = Convert.ToInt32(cmd.ExecuteScalar());
                 if (i > 0)
                 {
-                    Response.Redirect("home.aspx");
+                    Response.Redirect("dashboard.aspx");
                 }
             }
         }

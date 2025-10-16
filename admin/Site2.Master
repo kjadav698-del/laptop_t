@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="laptop_t.admin.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Categories</title>
+                    <link rel="stylesheet" href="css/style.css">
+                </head>
+                <body>
+                    <!-- Sidebar -->
+                    <div class="sidebar">
+                        <h2 style="text-align: center;">Admin</h2>
+                        <a href="dashboard.html">Dashboard</a>
+                        <a href="categories.html">Category</a>
+                        <a href="products.html">Products</a>
+                        <a href="add-product.html">Add Product</a>
+                        <a href="categories.html">Categories</a>
+                        <a href="orders.html">Orders</a>
+                    </div>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+</body>
+</html>
+</asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

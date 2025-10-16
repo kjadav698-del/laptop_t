@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Categories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2 style="text-align:center;">Admin</h2>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="categories.html">Category</a>
+    <a href="products.html">Products</a>
+    <a href="add-product.html">Add Product</a>
+    <a href="categories.html">Categories</a>
+    <a href="orders.html">Orders</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <h1>Product Categories</h1>
+
+    <!-- Category List Table -->
+    <table>
+      <tr>
+        <th>ID</th><th>Category Name</th><th>Status</th>
+      </tr>
+      <tr>
+        <td>1</td><td>Electronics</td><td>Active</td>
+      </tr>
+      <tr>
+        <td>2</td><td>Clothing</td><td>Active</td>
+      </tr>
+      <tr>
+        <td>3</td><td>Books</td><td>Inactive</td>
+      </tr>
+    </table>
+
+    <!-- Add Category Form -->
+    <h2 style="margin-top: 40px;">Add New Category</h2>
+    <form method="POST" action="#">
+      <label>Category Name:</label>
+      <input type="text" name="category_name" required>
+
+      <label>Status:</label>
+      <select name="status">
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+      </select>
+
+      <input type="submit" value="Add Category">
+    </form>
+  </div>
+</body>
+</html>

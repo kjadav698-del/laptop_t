@@ -72,8 +72,21 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="about.html" />
+    <Content Include="admin\add-product.aspx" />
+    <Content Include="admin\add-product.html" />
     <Content Include="admin\admin_ragistraction.aspx" />
+    <Content Include="admin\categories.aspx" />
+    <Content Include="admin\categories.html" />
+    <Content Include="admin\css\style.css" />
+    <Content Include="admin\dashboard.aspx" />
+    <Content Include="admin\dashboard.html" />
+    <Content Include="admin\editprd.aspx" />
     <Content Include="admin\login_admin.aspx" />
+    <Content Include="admin\logout.aspx" />
+    <Content Include="admin\orders.aspx" />
+    <Content Include="admin\orders.html" />
+    <Content Include="admin\products.aspx" />
+    <Content Include="admin\products.html" />
     <Content Include="App_Data\laptopsell.mdf" />
     <Content Include="App_Data\laptopsell_log.ldf">
       <DependentUpon>laptopsell.mdf</DependentUpon>
@@ -91,10 +104,12 @@
     <Content Include="images\images7.jpg" />
     <Content Include="index.html" />
     <Content Include="login.html" />
+    <Content Include="logout.aspx" />
     <Content Include="register.html" />
     <Content Include="shop.aspx" />
     <Content Include="shop.html" />
     <Content Include="styles.css" />
+    <Content Include="Viewdetalis.aspx" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="index.aspx" />
@@ -108,6 +123,13 @@
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\add-product.aspx.cs">
+      <DependentUpon>add-product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\add-product.aspx.designer.cs">
+      <DependentUpon>add-product.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\admin_ragistraction.aspx.cs">
       <DependentUpon>admin_ragistraction.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -115,12 +137,61 @@
     <Compile Include="admin\admin_ragistraction.aspx.designer.cs">
       <DependentUpon>admin_ragistraction.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin\categories.aspx.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\categories.aspx.designer.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\editprd.aspx.cs">
+      <DependentUpon>editprd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\editprd.aspx.designer.cs">
+      <DependentUpon>editprd.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\login_admin.aspx.cs">
       <DependentUpon>login_admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin\login_admin.aspx.designer.cs">
       <DependentUpon>login_admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\orders.aspx.cs">
+      <DependentUpon>orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\orders.aspx.designer.cs">
+      <DependentUpon>orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
     </Compile>
     <Compile Include="cart.aspx.cs">
       <DependentUpon>cart.aspx</DependentUpon>
@@ -135,6 +206,13 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shop.aspx.cs">
@@ -172,9 +250,17 @@
     <Compile Include="registre.aspx.designer.cs">
       <DependentUpon>registre.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Viewdetalis.aspx.cs">
+      <DependentUpon>Viewdetalis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewdetalis.aspx.designer.cs">
+      <DependentUpon>Viewdetalis.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\fwebp.webp" />
+    <Content Include="admin\Site2.Master" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -185,6 +271,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="admin\product\" />
     <Folder Include="img\" />
   </ItemGroup>
   <PropertyGroup>

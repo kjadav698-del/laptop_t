@@ -175,12 +175,7 @@
                             </asp:DropDownList>
                         </td>
                     </tr>
-                    <%--      <tr>
-            <td>Image:</td>
-            <td>
-                <asp:FileUpload ID="fldimg" runat="server" />
-            </td>
-        </tr>--%>
+                 
                     <tr>
                         <td>Password:</td>
                         <td>

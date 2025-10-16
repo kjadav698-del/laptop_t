@@ -43,6 +43,11 @@ namespace laptop_t
                 int i = Convert.ToInt32(cmd.ExecuteScalar());
                 if (i > 0)
                 {
+                    Session["user"]=txtem.Text;
+                    ad = new SqlDataAdapter("select * from user_tbl where Email='" + Session["user"] +"'",con);
+                    ds = new DataSet();
+                    ad.Fill(ds);
+                    Session["uid"] = ds.Tables[0].Rows[0]["Id"];
                     Response.Redirect("home.aspx");
                 }
             }

@@ -20,7 +20,7 @@
                                 <li><a href="shop.aspx">Shop</a></li>
                                 <li><a href="cart.aspx">Cart</a></li>
                                 <li><a href="contact.aspx">Contact</a></li>
-                                <li><a href="index.aspx">Log Out</a></li>
+                                <li><a href="logout.aspx">Log Out</a></li>
                             </ul>
                         </nav>
                     </header>
@@ -43,28 +43,28 @@
                             <h4>ProBook 450</h4>
                             <p>
                                 ₹55,000</p>
-                            <a href="shop.html" class="btn">Shop Now</a>
+                            <a href="shop.aspx" class="btn">Shop Now</a>
                         </div>
                         <div class="card">
                             <img src="images/images2.jpg" alt="ThinkPad X1">
                             <h4>ThinkPad X1</h4>
                             <p>
                                 ₹80,000</p>
-                            <a href="shop.html" class="btn">Shop Now</a>
+                            <a href="shop.aspx" class="btn">Shop Now</a>
                         </div>
                         <div class="card">
                             <img src="images/images3.png" alt="MacBook Pro 14">
                             <h4>MacBook Pro 14</h4>
                             <p>
                                 ₹1,50,000</p>
-                            <a href="shop.html" class="btn">Shop Now</a>
+                            <a href="shop.aspx" class="btn">Shop Now</a>
                         </div>
                         <div class="card">
                             <img src="images/images4.jpg" alt="Dell XPS 13">
                             <h4>Dell XPS 13</h4>
                             <p>
                                 ₹1,20,000</p>
-                            <a href="shop.html" class="btn">Shop Now</a>
+                            <a href="shop.aspx" class="btn">Shop Now</a>
                         </div>
                     </div>
     </section>

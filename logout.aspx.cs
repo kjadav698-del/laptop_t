@@ -7,14 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace laptop_t
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class logout : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["user"] == null)
-            {
-                Response.Redirect("index.aspx");
-            }
+            Session.Clear();
+            Response.Redirect("index.aspx");
         }
     }
 }
